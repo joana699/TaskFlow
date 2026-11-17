@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TaskFlow</string>
+    <string name="title_tasks">Mis tareas</string>
+    <string name="title_detail">Tarea</string>
+    <string name="title_history">Historial</string>
+</resources>

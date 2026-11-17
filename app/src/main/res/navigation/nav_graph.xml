@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskListFragment">
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.example.taskflow.ui.main.TaskListFragment"
+        android:label="@string/title_tasks" />
+
+    <fragment
+        android:id="@+id/taskDetailFragment"
+        android:name="com.example.taskflow.ui.detail.TaskDetailFragment"
+        android:label="@string/title_detail">
+        <argument
+            android:name="taskId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.taskflow.ui.history.HistoryFragment"
+        android:label="@string/title_history" />
+</navigation>

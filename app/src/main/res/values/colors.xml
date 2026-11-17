@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_light">#9FA8DA</color>
+    <color name="accent_light">#4DB6AC</color>
+
+    <color name="state_active">#66BB6A</color>
+    <color name="state_paused">#BDBDBD</color>
+    <color name="state_retry">#FFB74D</color>
+    <color name="state_error">#EF5350</color>
+</resources>
